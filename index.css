@@ -6,35 +6,31 @@ body {
 } 
 .content{
     width: 600px;
-    /* height: auto; */
     opacity: 1;
-    /* background: pink; */
     margin: auto;
     border: gray solid;
-    /* position: relative; */
-    max-height: 800px; /* Set a fixed height for the menu container */
-    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 800px;
+    overflow-y: auto; 
     overflow-x: hidden;
 }
 header{
-    width: 100%; /* Full width */
-    height: 200px; /* Full viewport height */
-    background-image: url('./images/header.jpg'); /* Replace with your image path */
-    background-size: cover; /* Make the image cover the entire header */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Prevent tiling */
-    position: relative; /* Position the container for absolute positioning of text */
-    color: white; /* Text color for contrast */
-    display: flex; /* Use flexbox for centering */
-    /* Center horizontally */
-    align-items: center; /* Center vertically */
-    text-align: center; /* Center text alignment */
+    width: 100%;
+    height: 200px; 
+    background-image: url('./images/header.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    position: relative; 
+    color: white; 
+    display: flex; 
+
+    align-items: center; 
+    text-align: center;
 
 }
 .header-text {
-    /* Add a semi-transparent background for better readability */
     padding: 20px;
-    font-family: Smythe;/* Optional: Add rounded corners */
+    font-family: Smythe;
 }
 
 header h1 {
