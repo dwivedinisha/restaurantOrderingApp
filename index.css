@@ -1,3 +1,4 @@
+
 body {
     /* margin: 0; */
     color: #333;
@@ -12,9 +13,10 @@ body {
     margin: auto;
     border: gray solid;
     /* position: relative; */
-    max-height: 800px; /* Set a fixed height for the menu container */
-    overflow-y: auto; /* Enable vertical scrolling */
-    overflow-x: hidden;
+/*     max-height: 800px; */
+    height: 100%;/* Set a fixed height for the menu container */
+/*     overflow-y: auto;
+    overflow-x: hidden; */
 }
 header{
     width: 100%; /* Full width */
