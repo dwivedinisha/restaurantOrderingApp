@@ -17,24 +17,58 @@ body {
     overflow-x: hidden;
 }
 header{
-    width: 600px;
-    height: 167px;
-    opacity: 1;
+    width: 100%; /* Full width */
+    height: 20vh; /* Full viewport height */
+    background-image: url('./images/header.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    position: relative; /* Position the container for absolute positioning of text */
+    color: white; /* Text color for contrast */
+    display: flex; /* Use flexbox for centering */
+    /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text alignment */
+
+}
+.header-text {
+    /* Add a semi-transparent background for better readability */
+    padding: 20px;
+    font-family: Smythe;/* Optional: Add rounded corners */
 }
 
-.imgcontainer{
-    width: 600px;
-    height: 400px;
-
-    /* angle: 0 deg; */
+header h1 {
+    width: 300px;
+    height: 10px;
+    top: 56px;
+    left: 46px;
+    angle: 0 deg;
     opacity: 1;
-    overflow: hidden;
-    object-fit: cover;
+    font-family: Smythe;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 39px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+
+
 }
-img{
-    top: 153px;
-    width: 600px;
-    height: 167px;
+header p {
+    /* width: 400px;
+    height: 17px; */
+    top: 100px;
+    left: 46px;
+    angle: 0 deg;
+    opacity: 1;
+    font-family: Smythe;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 23px;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
 .container{
     display: flex;
@@ -383,9 +417,9 @@ input[type="text"]{
     left: 109px;
     opacity: 1;
     font-family: Smythe;
-    font-weight: 300;
+    font-weight: 400;
     font-style: Regular;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 16.8px;
     letter-spacing: 0%;
     color: #065F46;
