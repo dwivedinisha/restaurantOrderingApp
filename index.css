@@ -10,7 +10,7 @@ body {
     margin: auto;
     border: gray solid;
     max-height: 800px;
-    overflow-y: auto; 
+    overflow-y: hidden; 
     overflow-x: hidden;
 }
 header{
