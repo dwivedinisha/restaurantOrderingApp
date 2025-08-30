@@ -9,7 +9,8 @@ body {
     opacity: 1;
     margin: auto;
     border: gray solid;
-    max-height: 1000px; 
+    height: 1000px;
+/*     max-height: 800px;  */
     overflow-y: auto;
     overflow-x: hidden;
 }
