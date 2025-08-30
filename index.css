@@ -203,9 +203,9 @@ header p {
     /* height: 300px; */
     background-color: #fff;
 /*     position: relative; */
-/*     bottom: 50px; */
+    bottom: 50px;
     position: fixed;
-    top: 200px;
+/*     top: 200px; */
     left: 0;
     right: 0;
     margin: auto;
