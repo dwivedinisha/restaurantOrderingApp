@@ -18,7 +18,7 @@ body {
 }
 header{
     width: 100%; /* Full width */
-    height: 100px; /* Full viewport height */
+    height: 200px; /* Full viewport height */
     background-image: url('./images/header.jpg'); /* Replace with your image path */
     background-size: cover; /* Make the image cover the entire header */
     background-position: center; /* Center the image */
