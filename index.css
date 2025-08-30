@@ -200,7 +200,8 @@ header p {
     width: 540px;
     /* height: 300px; */
     background-color: #fff;
-    position: relative;
+/*     position: relative; */
+    position: fixed;
     bottom: 500px;
     left: 0;
     right: 0;
