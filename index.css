@@ -202,7 +202,8 @@ header p {
     background-color: #fff;
 /*     position: relative; */
     position: fixed;
-    bottom: 300px;
+    bottom: auto;
+    top: auto;
     left: 0;
     right: 0;
     margin: auto;
