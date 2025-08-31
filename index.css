@@ -1,34 +1,40 @@
-
 body {
-    margin: 0;
+    /* margin: 0; */
     color: #333;
     font-family: 'Poppins';
     
 } 
 .content{
     width: 600px;
+    /* height: auto; */
     opacity: 1;
+    /* background: pink; */
     margin: auto;
-/*     border: gray solid; */
-    height: 100%;
+    border: gray solid;
+    /* position: relative; */
+    max-height: 800px; /* Set a fixed height for the menu container */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden;
 }
 header{
-    width: 100%;
-    height: 200px; 
-    background-image: url('./images/header.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-    position: relative;
-    color: white; 
-    display: flex; 
-    align-items: center; 
-    text-align: center; 
+    width: 100%; /* Full width */
+    height: 20vh; /* Full viewport height */
+    background-image: url('./images/header.jpg'); /* Replace with your image path */
+    background-size: cover; /* Make the image cover the entire header */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    position: relative; /* Position the container for absolute positioning of text */
+    color: white; /* Text color for contrast */
+    display: flex; /* Use flexbox for centering */
+    /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text alignment */
 
 }
 .header-text {
+    /* Add a semi-transparent background for better readability */
     padding: 20px;
-    font-family: Smythe;
+    font-family: Smythe;/* Optional: Add rounded corners */
 }
 
 header h1 {
@@ -196,14 +202,12 @@ header p {
     border: 1px solid #D2D2D2;
 
 }
-.cart{
-    width: 540px;
-    /* height: 300px; */
+/* .cart{
+    width: 554px;
+
     background-color: #fff;
-/*     position: relative; */
-/*     position: fixed; */
+    position: relative;
     bottom: 50px;
-/*     top: 10px; */
     left: 0;
     right: 0;
     margin: auto;
@@ -213,7 +217,49 @@ header p {
     box-shadow: 5px 5px 10px gray, -5px -5px 10px lightgray;
     padding-bottom: 25px;
     padding-top: 10px;
+} */
+
+.cart-box{
+    width: 554px;
+
+    background-color: #fff;
+    position: relative;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-shadow: 5px 5px 10px gray, -5px -5px 10px lightgray;
+    padding-bottom: 25px;
+    padding-top: 10px;
+
 }
+.payment-box{
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+
+
+
+
+
+
+
+
 .cart-head{
     width: 100%;
     /* align-content: center; */
