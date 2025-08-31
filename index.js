@@ -35,6 +35,7 @@ let cartItemsArr = []
  
 function renderCart() {
     const cartDiv = document.getElementById("cart");
+    cartDiv.className = "cart-box"; 
     if (cartItemsArr.length === 0) {
         cartDiv.style.display = "none"; // Hide the cart if it's empty
         cartDiv.innerHTML = "";
@@ -89,6 +90,7 @@ function removeItemFromCart(itemId) {
 // Function to render the payment gateway form
 function renderPaymentForm() {
     const cartDiv = document.getElementById("cart");
+    cartDiv.className = "payment-box";
     cartDiv.innerHTML = `
         <h2 class="payment-head">Enter card details</h2>
         <form id="paymentForm">
