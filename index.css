@@ -453,7 +453,7 @@ input[type="text"]{
    
 }
 .thank-you-msg{
-   width: 600px;
+   width: 550px;
     height: 17px;
     top: 840px;
     left: 109px;
@@ -465,6 +465,6 @@ input[type="text"]{
     line-height: 16.8px;
     letter-spacing: 0%;
     color: #065F46;
-
+    display: block;
 
 }
